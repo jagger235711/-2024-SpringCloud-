@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.atguigu.cloud</groupId>
+        <groupId>com.atguigu.cloud</groupId>
         <artifactId>cloud2024</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -19,6 +19,11 @@
     </properties>
 
     <dependencies>
+        <!--SpringCloud consul discovery -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+        </dependency>
         <!-- 引入自己定义的api通用包 -->
         <dependency>
             <groupId>com.atguigu.cloud</groupId>
