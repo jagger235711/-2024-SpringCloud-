@@ -18,6 +18,7 @@ spring:
       host: localhost
       port: 8500
       discovery:
+        prefer-ip-address: true #优先使用服务ip进行注册
         service-name: ${spring.application.name}
 
 # ========================mybatis===================
