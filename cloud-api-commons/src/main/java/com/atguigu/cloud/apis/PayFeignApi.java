@@ -18,7 +18,6 @@ public interface PayFeignApi {
 	 */
 	@PostMapping("/pay/add")
 	ResultData addPay(@RequestBody PayDTO payDTO);
-
 	/**
 	 * 按照主键记录查询支付流水信息
 	 *
